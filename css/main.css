@@ -54,6 +54,8 @@ body {
   text-align: center;
   line-height: 55px;
   font-size: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .calender-table {
   margin: 1rem auto;
