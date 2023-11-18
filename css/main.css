@@ -137,3 +137,15 @@ body {
   color: #fff;
   padding: 1.25em 1.625em;
 }
+
+.bi-plus-circle-fill {
+  font-size: 70px;
+  position: absolute;
+  left: 930px;
+  bottom: 80px;
+}
+.bi-plus-circle-fill:hover {
+  transition: 0.3s ease-out;
+  opacity: 0.5;
+  cursor: pointer;
+}
