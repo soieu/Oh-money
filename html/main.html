@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script defer src="../js/calender.js"></script>
+    <script defer src="../js/data.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <p class="nav-text">로그인</p>
+      <p class="nav-title">오<b style="color: #ffcc00">!</b>머니</p>
+      <p class="nav-text">회원가입</p>
+    </div>
+    <div class="content-container">
+      <div class="calender-container">
+        <header class="calender-header">
+          
+          <h2 class="calender-header-h2">지금년월</h2>
+        </header>
+        <div class="calender">
+          <table class="calender-table">
+            <tr>
+              <th>월요일</th>
+              <th>화요일</th>
+              <th>수요일</th>
+              <th>목요일</th>
+              <th>금요일</th>
+              <th style="color: blue">토요일</th>
+              <th style="color: red">일요일</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="detail-container">
+        <!-- <header class="introduce-header">
+          <h2>오!머니에 오신것을 환영합니다.</h2>
+        </header> -->
+        <header class="introduce-header">
+          <h2>오늘의 총정리!</h2>
+        </header>
+      </div>
+    </div>
+    </div>
+    <!-- style="display: none" -->
+    <div class="pop-up" style="display: none">
+      <div class="login-form-container">
+        <header class="login__header">
+          <h2>로그인</h2>
+        </header>
+
+        <form class="login-form">
+          <input class="input-container" type="id" name="id" placeholder="id" />
+          <input
+            class="input-container"
+            type="password"
+            name="password"
+            placeholder="password"
+          />
+          <input type="submit" name="submit" value="로그인" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
