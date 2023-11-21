@@ -67,7 +67,7 @@ body {
   font-weight: bold;
 }
 .calender-table tr td {
-  padding: 1rem 3.5rem 4rem;
+  padding: 1rem 3rem 3rem;
   font-size: 16px;
 }
 .today {
@@ -76,7 +76,6 @@ body {
 
 .detail-container {
   background-color: white;
-  display: grid;
   width: 30%;
   height: 90%;
   border: 3px solid black;
@@ -139,13 +138,38 @@ body {
 }
 
 .bi-plus-circle-fill {
-  font-size: 70px;
-  position: absolute;
-  left: 930px;
-  bottom: 80px;
+  font-size: 60px;
+  position: relative;
+  left: 780px;
+  bottom: 30px;
 }
 .bi-plus-circle-fill:hover {
-  transition: 0.3s ease-out;
-  opacity: 0.5;
+  transition: 0.2s ease-out;
+  opacity: 0.7;
   cursor: pointer;
 }
+.today-report {
+  width: 80%;
+  height: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  text-align: center;
+}
+.today-report-item{
+  flex: 1;
+  padding: 20px
+}
+.today-report-income {
+  border-right: 2px solid black;
+}
+
+.detail-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+}
+
